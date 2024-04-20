@@ -1,3 +1,5 @@
+
+
 let noteForm;
 let noteTitle;
 let noteText;
@@ -20,21 +22,29 @@ const show = (elem) => {
   elem.style.display = 'inline';
 };
 
+
 // Hide an element
 const hide = (elem) => {
   elem.style.display = 'none';
 };
 
+
+
 // activeNote is used to keep track of the note in the textarea
 let activeNote = {};
 
-const getNotes = () =>
+const getNotes = () => 
   fetch('/api/notes', {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json'
     }
-  });
+    }
+  )
+  // .then(res => res.json())
+  // .then(data => {
+  //   console.log(data)
+  // });
 
 const saveNote = (note) =>
   fetch('/api/notes', {
