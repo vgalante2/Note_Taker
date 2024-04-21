@@ -3,14 +3,14 @@ const {v4: generateID } = require('uuid')
 const fs = require('fs/promises')
 
 async function getData() {
-    const data = await fs.readFile('./Develop/db/db.json', 'utf8')
+    const data = await fs.readFile('./db/db.json', 'utf8')
 
     return JSON.parse(data)
 }
 
 async function saveData(data) {
     try {
-    await fs.writeFile('./Develop/db/db.json', JSON.stringify(data, null, 2))
+    await fs.writeFile('./db/db.json', JSON.stringify(data, null, 2))
 } catch (err) {
     console.log(err)
 }
