@@ -12,7 +12,7 @@ const PORT = 3333
 // Middleware routes
 
 // GET route for every file inside public
-app.use(express.static('./Develop/public'))
+app.use(express.static('Develop'))
 
 // allow encoded url  to be sent to routes
 app.use(express.urlencoded({extended: false}));
