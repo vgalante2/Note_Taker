@@ -4,7 +4,7 @@
 The Note Taker is a simple web application that allows users to create, store, and delete notes. It provides a convenient way to jot down quick thoughts, reminders, or ideas, and organize them for easy access later.
 ## Visuals
 
-<img src="./Develop/public/assets/images/note.png" >
+<img src="./public/assets/images/note.png" >
 
 
 
