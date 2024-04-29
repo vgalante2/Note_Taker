@@ -10,7 +10,7 @@ The Note Taker is a simple web application that allows users to create, store, a
 
 ## Deployment
 
-DEMO - [LIVE DEMO]((https://note-taker-app-mv8m.onrender.com/))
+DEMO - [LIVE DEMO]('https://note-taker-app-mv8m.onrender.com/')
 
 ## Usage
 
